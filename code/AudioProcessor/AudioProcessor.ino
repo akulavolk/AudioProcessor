@@ -8,6 +8,7 @@ const int volumePin = A0;
 const int treblePin = A1;
 const int midPin = A2;
 const int bassPin = A3;
+const int ledPin = 2;
 int volumeLevel = 0;
 int trebleLevel = 0;
 int midLevel = 0;
@@ -24,8 +25,12 @@ void setup() {
   #define BODSE 2 //BOD Sleep enable bit in MCUCR
   MCUCR |= _BV(BODS) | _BV(BODSE); //turn off the brown-out detector
 
-  //delay(500);
-
+  pinMode(ledPin, OUTPUT);
+  
+  digitalWrite(ledPin, HIGH);
+  delay(1000);
+  digitalWrite(ledPin, LOW);
+  
   audio.inputGain(0);
   audio.setInput(2);
   audio.spkAtt(0); 
@@ -38,11 +43,7 @@ void loop() {
   if (newVolume != volumeLevel) {
     volumeLevel = newVolume;
     audio.setVolume(volumeLevel);
-
-    if (volumeLevel == 0) {
-      audio.mute();
-      audio.spkAtt(79);
-    }
+    blinkLed();
   }
 
   trebleReader.update();
@@ -51,6 +52,7 @@ void loop() {
   if (newTreble != trebleLevel) {
     trebleLevel = newTreble;
     audio.setSnd(trebleLevel, 3);
+    blinkLed();
   }  
 
   midReader.update();
@@ -59,6 +61,7 @@ void loop() {
   if (newMid != midLevel) {
     midLevel = newMid;
     audio.setSnd(midLevel, 2);
+    blinkLed();
   }  
 
   bassReader.update();
@@ -67,11 +70,18 @@ void loop() {
   if (newBass != bassLevel) {
     bassLevel = newBass;
     audio.setSnd(bassLevel, 1);
+    blinkLed();
   }  
 
   // sleep for 256 ms
   system_sleep();
-  //delay(256);
+}
+
+void blinkLed()
+{
+  digitalWrite(ledPin, HIGH);
+  delay(5);
+  digitalWrite(ledPin, LOW);  
 }
 
 long potMap(long x, long in_min, long in_max, long out_min, long out_max)
