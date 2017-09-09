@@ -4,6 +4,8 @@
 #include <ResponsiveAnalogRead.h>
 #include "TDA7439.h"
 
+// Target ATTiny84 @ 1Mhz
+
 const int volumePin = A0;
 const int treblePin = A1;
 const int midPin = A2;
