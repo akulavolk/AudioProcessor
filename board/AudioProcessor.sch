@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.0.0">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -1679,7 +1680,7 @@ Standard 6 pin header for ICSP programming</description>
 <part name="IC3" library="SaintGimp" deviceset="LP2951" device=""/>
 <part name="IC2" library="SaintGimp" deviceset="LP2951" device=""/>
 <part name="GND20" library="SaintGimp" deviceset="GND" device=""/>
-<part name="R7" library="SaintGimp" deviceset="RESISTOR-*" device="0805" value="620K"/>
+<part name="R7" library="SaintGimp" deviceset="RESISTOR-*" device="0805" value="680K"/>
 <part name="R8" library="SaintGimp" deviceset="RESISTOR-*" device="0805" value="100K"/>
 <part name="GND22" library="SaintGimp" deviceset="GND" device=""/>
 <part name="GND19" library="SaintGimp" deviceset="GND" device=""/>

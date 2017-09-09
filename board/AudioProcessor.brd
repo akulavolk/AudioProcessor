@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.0.0">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
@@ -871,7 +872,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R9" library="SaintGimp" package="RESISTOR-0805" value="5.6K" x="15.875" y="6.985" smashed="yes" rot="R270">
 <attribute name="NAME" x="14.1605" y="7.747" size="0.8128" layer="25" rot="R270"/>
 </element>
-<element name="R7" library="SaintGimp" package="RESISTOR-0805" value="620K" x="35.56" y="19.05" smashed="yes" rot="R180">
+<element name="R7" library="SaintGimp" package="RESISTOR-0805" value="680K" x="35.56" y="19.05" smashed="yes" rot="R180">
 <attribute name="NAME" x="36.576" y="17.9705" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="R8" library="SaintGimp" package="RESISTOR-0805" value="100K" x="40.64" y="19.05" smashed="yes" rot="R180">
