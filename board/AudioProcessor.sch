@@ -253,42 +253,6 @@
 <rectangle x1="6.731" y1="3.8608" x2="7.239" y2="5.334" layer="51"/>
 <rectangle x1="8.001" y1="3.8608" x2="8.509" y2="5.334" layer="51"/>
 </package>
-<package name="CAPACITOR-5MM">
-<pad name="1" x="-2.54" y="0" drill="0.8"/>
-<pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="-1.016" y="1.524" size="0.8128" layer="25">&gt;Name</text>
-<text x="-1.905" y="-2.286" size="0.8128" layer="27">&gt;Value</text>
-<wire x1="-0.254" y1="0.635" x2="-0.254" y2="0" width="0.2032" layer="21"/>
-<wire x1="-0.254" y1="0" x2="-0.254" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="0.254" y1="0.635" x2="0.254" y2="0" width="0.2032" layer="21"/>
-<wire x1="0.254" y1="0" x2="0.254" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-0.254" y1="0" x2="-1.27" y2="0" width="0.127" layer="21"/>
-<wire x1="0.254" y1="0" x2="1.27" y2="0" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="1.016" x2="-3.556" y2="1.27" width="0.127" layer="21" curve="-90"/>
-<wire x1="-3.556" y1="1.27" x2="3.556" y2="1.27" width="0.127" layer="21"/>
-<wire x1="3.556" y1="1.27" x2="3.81" y2="1.016" width="0.127" layer="21" curve="-90"/>
-<wire x1="3.81" y1="1.016" x2="3.81" y2="-1.016" width="0.127" layer="21"/>
-<wire x1="3.81" y1="-1.016" x2="3.556" y2="-1.27" width="0.127" layer="21" curve="-90"/>
-<wire x1="3.556" y1="-1.27" x2="-3.556" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-3.556" y1="-1.27" x2="-3.81" y2="-1.016" width="0.127" layer="21" curve="-90"/>
-<wire x1="-3.81" y1="-1.016" x2="-3.81" y2="1.016" width="0.127" layer="21"/>
-</package>
-<package name="CAPACITOR-2.5MM">
-<wire x1="-0.1778" y1="0.635" x2="-0.1778" y2="-0.635" width="0.2032" layer="21"/>
-<pad name="1" x="-1.27" y="0" drill="0.8"/>
-<pad name="2" x="1.27" y="0" drill="0.8"/>
-<text x="-1.016" y="1.524" size="0.8128" layer="25">&gt;Name</text>
-<text x="-1.778" y="-2.286" size="0.8128" layer="27">&gt;Value</text>
-<wire x1="0.1778" y1="0.635" x2="0.1778" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="1.016" x2="-2.286" y2="1.27" width="0.127" layer="21" curve="-90"/>
-<wire x1="-2.286" y1="1.27" x2="2.286" y2="1.27" width="0.127" layer="21"/>
-<wire x1="2.286" y1="1.27" x2="2.54" y2="1.016" width="0.127" layer="21" curve="-90"/>
-<wire x1="2.54" y1="1.016" x2="2.54" y2="-1.016" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-1.016" x2="2.286" y2="-1.27" width="0.127" layer="21" curve="-90"/>
-<wire x1="2.286" y1="-1.27" x2="-2.286" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-2.286" y1="-1.27" x2="-2.54" y2="-1.016" width="0.127" layer="21" curve="-90"/>
-<wire x1="-2.54" y1="-1.016" x2="-2.54" y2="1.016" width="0.127" layer="21"/>
-</package>
 <package name="CAPACITOR-0805">
 <wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
 <wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
@@ -302,20 +266,6 @@
 <text x="-1.27" y="-1.905" size="0.8128" layer="27">&gt;VALUE</text>
 <rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.6985" layer="51"/>
 <rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.6985" layer="51"/>
-</package>
-<package name="AXIAL-7.5MM">
-<wire x1="-2.413" y1="0.762" x2="2.413" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="2.413" y1="0.762" x2="2.413" y2="0" width="0.2032" layer="21"/>
-<wire x1="2.413" y1="0" x2="2.413" y2="-0.762" width="0.2032" layer="21"/>
-<wire x1="2.413" y1="-0.762" x2="-2.413" y2="-0.762" width="0.2032" layer="21"/>
-<wire x1="-2.413" y1="-0.762" x2="-2.413" y2="0" width="0.2032" layer="21"/>
-<wire x1="-2.413" y1="0" x2="-2.413" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="2.413" y1="0" x2="2.891515625" y2="0" width="0.2032" layer="21"/>
-<wire x1="-2.413" y1="0" x2="-2.88414375" y2="-0.007384375" width="0.2032" layer="21"/>
-<pad name="P$1" x="-3.81" y="0" drill="0.8"/>
-<pad name="P$2" x="3.81" y="0" drill="0.8"/>
-<text x="-2.54" y="1.016" size="0.8128" layer="25">&gt;Name</text>
-<text x="-2.032" y="-0.508" size="0.8128" layer="21" ratio="10">&gt;Value</text>
 </package>
 <package name="SCREW-TERM-2">
 <description>&lt;b&gt;2-Pin Screw Terminal&lt;/b&gt;</description>
@@ -764,69 +714,6 @@
 <text x="2.413" y="-2.159" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
 </package>
-<package name="CAP-POL-25-14">
-<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
-grid 5 mm, diameter 14 mm</description>
-<wire x1="10.16" y1="7.239" x2="10.16" y2="-7.239" width="0.1524" layer="21"/>
-<wire x1="-15.24" y1="7.239" x2="-15.24" y2="-7.239" width="0.1524" layer="21"/>
-<wire x1="-15.24" y1="7.239" x2="-14.859" y2="7.62" width="0.1524" layer="21"/>
-<wire x1="-14.859" y1="7.62" x2="-13.716" y2="7.62" width="0.1524" layer="21"/>
-<wire x1="-13.335" y1="7.239" x2="-13.716" y2="7.62" width="0.1524" layer="21"/>
-<wire x1="-13.335" y1="7.239" x2="-12.446" y2="7.239" width="0.1524" layer="21"/>
-<wire x1="-12.446" y1="7.239" x2="-12.065" y2="7.62" width="0.1524" layer="21"/>
-<wire x1="-13.335" y1="7.239" x2="-13.335" y2="6.731" width="0.1524" layer="21"/>
-<wire x1="-12.446" y1="7.239" x2="-12.446" y2="6.731" width="0.1524" layer="21"/>
-<wire x1="-15.24" y1="7.239" x2="-13.335" y2="7.239" width="0.1524" layer="21"/>
-<wire x1="-12.446" y1="7.239" x2="10.16" y2="7.239" width="0.1524" layer="21"/>
-<wire x1="-13.335" y1="6.731" x2="-12.446" y2="6.731" width="0.1524" layer="21"/>
-<wire x1="-14.859" y1="7.493" x2="-13.716" y2="7.493" width="0.3048" layer="21"/>
-<wire x1="-14.986" y1="7.366" x2="-13.589" y2="7.366" width="0.3048" layer="21"/>
-<wire x1="-13.208" y1="7.112" x2="-12.573" y2="7.112" width="0.3048" layer="21"/>
-<wire x1="-13.208" y1="6.858" x2="-12.573" y2="6.858" width="0.3048" layer="21"/>
-<wire x1="-12.065" y1="7.493" x2="9.779" y2="7.493" width="0.3048" layer="21"/>
-<wire x1="-12.192" y1="7.366" x2="9.906" y2="7.366" width="0.3048" layer="21"/>
-<wire x1="-15.24" y1="-7.239" x2="-15.113" y2="-7.366" width="0.1524" layer="21"/>
-<wire x1="-14.859" y1="-7.62" x2="-13.716" y2="-7.62" width="0.1524" layer="21"/>
-<wire x1="-13.335" y1="-7.239" x2="-13.462" y2="-7.366" width="0.1524" layer="21"/>
-<wire x1="-13.335" y1="-7.239" x2="-12.446" y2="-7.239" width="0.1524" layer="21"/>
-<wire x1="-12.065" y1="-7.62" x2="-12.319" y2="-7.366" width="0.1524" layer="21"/>
-<wire x1="-15.113" y1="-7.366" x2="-13.462" y2="-7.366" width="0.1524" layer="21"/>
-<wire x1="-15.113" y1="-7.366" x2="-14.859" y2="-7.62" width="0.1524" layer="21"/>
-<wire x1="-13.462" y1="-7.366" x2="-13.716" y2="-7.62" width="0.1524" layer="21"/>
-<wire x1="-12.319" y1="-7.366" x2="10.033" y2="-7.366" width="0.1524" layer="21"/>
-<wire x1="-12.319" y1="-7.366" x2="-12.446" y2="-7.239" width="0.1524" layer="21"/>
-<wire x1="-13.335" y1="6.731" x2="-13.335" y2="-6.985" width="0.1524" layer="21"/>
-<wire x1="-12.446" y1="6.731" x2="-12.446" y2="-6.985" width="0.1524" layer="21"/>
-<wire x1="-13.335" y1="-6.985" x2="-12.446" y2="-6.985" width="0.1524" layer="21"/>
-<wire x1="-13.335" y1="-6.985" x2="-13.335" y2="-7.239" width="0.1524" layer="21"/>
-<wire x1="-12.446" y1="-6.985" x2="-12.446" y2="-7.239" width="0.1524" layer="21"/>
-<wire x1="-12.065" y1="-7.493" x2="9.779" y2="-7.493" width="0.3048" layer="21"/>
-<wire x1="-14.859" y1="-7.493" x2="-13.716" y2="-7.493" width="0.3048" layer="21"/>
-<wire x1="-13.208" y1="-7.112" x2="-12.573" y2="-7.112" width="0.3048" layer="21"/>
-<wire x1="10.16" y1="-7.239" x2="10.033" y2="-7.366" width="0.1524" layer="21"/>
-<wire x1="9.779" y1="-7.62" x2="-12.065" y2="-7.62" width="0.1524" layer="21"/>
-<wire x1="10.033" y1="-7.366" x2="9.779" y2="-7.62" width="0.1524" layer="21"/>
-<wire x1="10.16" y1="7.239" x2="9.779" y2="7.62" width="0.1524" layer="21"/>
-<wire x1="9.779" y1="7.62" x2="-12.065" y2="7.62" width="0.1524" layer="21"/>
-<wire x1="-11.049" y1="0.762" x2="-11.049" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="-11.049" y1="0.254" x2="-8.001" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="-8.001" y1="0.254" x2="-8.001" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-10.16" y1="1.524" x2="-10.922" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="-10.541" y1="1.905" x2="-10.541" y2="1.143" width="0.1524" layer="21"/>
-<wire x1="-8.001" y1="0.762" x2="-9.525" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-9.525" y1="0.762" x2="-11.049" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-9.525" y1="-0.635" x2="-9.525" y2="-2.032" width="0.1524" layer="21"/>
-<wire x1="-9.525" y1="1.905" x2="-9.525" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-16.51" y1="-2.54" x2="-16.002" y2="-2.54" width="0.762" layer="51"/>
-<wire x1="-16.51" y1="2.54" x2="-16.002" y2="2.54" width="0.762" layer="51"/>
-<pad name="+" x="-17.78" y="2.54" drill="1"/>
-<pad name="-" x="-17.78" y="-2.54" drill="1" shape="octagon"/>
-<text x="-4.699" y="1.651" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-4.8006" y="-3.1242" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-9.779" y1="-2.032" x2="-9.271" y2="1.016" layer="21" rot="R270"/>
-<rectangle x1="-16.129" y1="2.159" x2="-15.24" y2="2.921" layer="21"/>
-<rectangle x1="-16.129" y1="-2.921" x2="-15.24" y2="-2.159" layer="21"/>
-</package>
 <package name="CAP-POL-5-10">
 <wire x1="-1.651" y1="1.27" x2="-1.397" y2="1.27" width="0.1524" layer="21"/>
 <wire x1="-1.397" y1="1.016" x2="-1.397" y2="1.27" width="0.1524" layer="21"/>
@@ -936,19 +823,6 @@ grid 5 mm, diameter 14 mm</description>
 <vertex x="-0.1524" y="-0.508"/>
 </polygon>
 </package>
-<package name="DO-41">
-<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-1.27" x2="-2.54" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.127" layer="21"/>
-<pad name="1" x="-4.445" y="0" drill="1.0414" diameter="1.905"/>
-<pad name="2" x="4.445" y="0" drill="1.0414" diameter="1.905"/>
-<text x="-3.81" y="1.651" size="0.8128" layer="25" ratio="11">&gt;NAME</text>
-<text x="-3.81" y="-2.54" size="0.8128" layer="27" ratio="11">&gt;VALUE</text>
-<rectangle x1="1.27" y1="-1.27" x2="1.905" y2="1.27" layer="21"/>
-<rectangle x1="-3.3" y1="-0.3175" x2="-2.54" y2="0.3175" layer="21"/>
-<rectangle x1="2.54" y1="-0.3175" x2="3.3" y2="0.3175" layer="21"/>
-</package>
 <package name="DO-214AC">
 <description>http://www.sycelectronica.com.ar/semiconductores/1N4007-SMD.pdf</description>
 <smd name="1" x="-2.042" y="0" dx="1.77" dy="1.8" layer="1" rot="R90"/>
@@ -969,6 +843,196 @@ grid 5 mm, diameter 14 mm</description>
 <wire x1="2.15" y1="-1.3" x2="2.15" y2="-1" width="0.127" layer="21"/>
 <wire x1="-2.15" y1="-1.3" x2="-2.15" y2="-1" width="0.127" layer="21"/>
 <wire x1="-2.15" y1="1.3" x2="-2.15" y2="1" width="0.127" layer="21"/>
+</package>
+<package name="AXIAL-7.5MM">
+<wire x1="-2.413" y1="0.762" x2="2.413" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.413" y1="0.762" x2="2.413" y2="0" width="0.2032" layer="21"/>
+<wire x1="2.413" y1="0" x2="2.413" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="2.413" y1="-0.762" x2="-2.413" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="-2.413" y1="-0.762" x2="-2.413" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.413" y1="0" x2="-2.413" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.413" y1="0" x2="2.891515625" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.413" y1="0" x2="-2.88414375" y2="-0.007384375" width="0.2032" layer="21"/>
+<pad name="P$1" x="-3.81" y="0" drill="0.8"/>
+<pad name="P$2" x="3.81" y="0" drill="0.8"/>
+<text x="0" y="1.016" size="0.8128" layer="25" align="bottom-center">&gt;Name</text>
+<text x="0" y="-0.508" size="0.8128" layer="21" ratio="10" align="bottom-center">&gt;Value</text>
+</package>
+<package name="CAPACITOR-5MM">
+<pad name="1" x="-2.54" y="0" drill="0.8"/>
+<pad name="2" x="2.54" y="0" drill="0.8"/>
+<text x="0" y="1.524" size="0.8128" layer="25" align="bottom-center">&gt;Name</text>
+<wire x1="-0.254" y1="0.635" x2="-0.254" y2="0" width="0.2032" layer="21"/>
+<wire x1="-0.254" y1="0" x2="-0.254" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="0.254" y1="0.635" x2="0.254" y2="0" width="0.2032" layer="21"/>
+<wire x1="0.254" y1="0" x2="0.254" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.254" y1="0" x2="-1.27" y2="0" width="0.127" layer="21"/>
+<wire x1="0.254" y1="0" x2="1.27" y2="0" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="1.016" x2="-3.556" y2="1.27" width="0.127" layer="21" curve="-90"/>
+<wire x1="-3.556" y1="1.27" x2="3.556" y2="1.27" width="0.127" layer="21"/>
+<wire x1="3.556" y1="1.27" x2="3.81" y2="1.016" width="0.127" layer="21" curve="-90"/>
+<wire x1="3.81" y1="1.016" x2="3.81" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-1.016" x2="3.556" y2="-1.27" width="0.127" layer="21" curve="-90"/>
+<wire x1="3.556" y1="-1.27" x2="-3.556" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-3.556" y1="-1.27" x2="-3.81" y2="-1.016" width="0.127" layer="21" curve="-90"/>
+<wire x1="-3.81" y1="-1.016" x2="-3.81" y2="1.016" width="0.127" layer="21"/>
+</package>
+<package name="CAPACITOR-2.5MM">
+<wire x1="-0.1778" y1="0.635" x2="-0.1778" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="1" x="-1.27" y="0" drill="0.8"/>
+<pad name="2" x="1.27" y="0" drill="0.8"/>
+<text x="0" y="1.524" size="0.8128" layer="25" align="bottom-center">&gt;Name</text>
+<wire x1="0.1778" y1="0.635" x2="0.1778" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="1.016" x2="-2.286" y2="1.27" width="0.127" layer="21" curve="-90"/>
+<wire x1="-2.286" y1="1.27" x2="2.286" y2="1.27" width="0.127" layer="21"/>
+<wire x1="2.286" y1="1.27" x2="2.54" y2="1.016" width="0.127" layer="21" curve="-90"/>
+<wire x1="2.54" y1="1.016" x2="2.54" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-1.016" x2="2.286" y2="-1.27" width="0.127" layer="21" curve="-90"/>
+<wire x1="2.286" y1="-1.27" x2="-2.286" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-2.286" y1="-1.27" x2="-2.54" y2="-1.016" width="0.127" layer="21" curve="-90"/>
+<wire x1="-2.54" y1="-1.016" x2="-2.54" y2="1.016" width="0.127" layer="21"/>
+</package>
+<package name="CAPACITOR-1210">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="-0.9652" y1="1.2446" x2="0.9652" y2="1.2446" width="0.1016" layer="51"/>
+<wire x1="-0.9652" y1="-1.2446" x2="0.9652" y2="-1.2446" width="0.1016" layer="51"/>
+<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
+<text x="0" y="1.651" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0.127" y="-2.54" size="0.8128" layer="27" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-1.2954" x2="-0.9517" y2="1.3045" layer="51"/>
+<rectangle x1="0.9517" y1="-1.3045" x2="1.7018" y2="1.2954" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
+<package name="CAPACITOR-0603">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="0" y="0.762" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.651" size="0.8128" layer="27" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="CAP-POL-5-14-HORZ">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+grid 5 mm, diameter 14 mm</description>
+<wire x1="10.16" y1="7.239" x2="10.16" y2="-7.239" width="0.1524" layer="21"/>
+<wire x1="-15.24" y1="7.239" x2="-15.24" y2="-7.239" width="0.1524" layer="21"/>
+<wire x1="-15.24" y1="7.239" x2="-14.859" y2="7.62" width="0.1524" layer="21"/>
+<wire x1="-14.859" y1="7.62" x2="-13.716" y2="7.62" width="0.1524" layer="21"/>
+<wire x1="-13.335" y1="7.239" x2="-13.716" y2="7.62" width="0.1524" layer="21"/>
+<wire x1="-13.335" y1="7.239" x2="-12.446" y2="7.239" width="0.1524" layer="21"/>
+<wire x1="-12.446" y1="7.239" x2="-12.065" y2="7.62" width="0.1524" layer="21"/>
+<wire x1="-13.335" y1="7.239" x2="-13.335" y2="6.731" width="0.1524" layer="21"/>
+<wire x1="-12.446" y1="7.239" x2="-12.446" y2="6.731" width="0.1524" layer="21"/>
+<wire x1="-15.24" y1="7.239" x2="-13.335" y2="7.239" width="0.1524" layer="21"/>
+<wire x1="-12.446" y1="7.239" x2="10.16" y2="7.239" width="0.1524" layer="21"/>
+<wire x1="-13.335" y1="6.731" x2="-12.446" y2="6.731" width="0.1524" layer="21"/>
+<wire x1="-14.859" y1="7.493" x2="-13.716" y2="7.493" width="0.3048" layer="21"/>
+<wire x1="-14.986" y1="7.366" x2="-13.589" y2="7.366" width="0.3048" layer="21"/>
+<wire x1="-13.208" y1="7.112" x2="-12.573" y2="7.112" width="0.3048" layer="21"/>
+<wire x1="-13.208" y1="6.858" x2="-12.573" y2="6.858" width="0.3048" layer="21"/>
+<wire x1="-12.065" y1="7.493" x2="9.779" y2="7.493" width="0.3048" layer="21"/>
+<wire x1="-12.192" y1="7.366" x2="9.906" y2="7.366" width="0.3048" layer="21"/>
+<wire x1="-15.24" y1="-7.239" x2="-15.113" y2="-7.366" width="0.1524" layer="21"/>
+<wire x1="-14.859" y1="-7.62" x2="-13.716" y2="-7.62" width="0.1524" layer="21"/>
+<wire x1="-13.335" y1="-7.239" x2="-13.462" y2="-7.366" width="0.1524" layer="21"/>
+<wire x1="-13.335" y1="-7.239" x2="-12.446" y2="-7.239" width="0.1524" layer="21"/>
+<wire x1="-12.065" y1="-7.62" x2="-12.319" y2="-7.366" width="0.1524" layer="21"/>
+<wire x1="-15.113" y1="-7.366" x2="-13.462" y2="-7.366" width="0.1524" layer="21"/>
+<wire x1="-15.113" y1="-7.366" x2="-14.859" y2="-7.62" width="0.1524" layer="21"/>
+<wire x1="-13.462" y1="-7.366" x2="-13.716" y2="-7.62" width="0.1524" layer="21"/>
+<wire x1="-12.319" y1="-7.366" x2="10.033" y2="-7.366" width="0.1524" layer="21"/>
+<wire x1="-12.319" y1="-7.366" x2="-12.446" y2="-7.239" width="0.1524" layer="21"/>
+<wire x1="-13.335" y1="6.731" x2="-13.335" y2="-6.985" width="0.1524" layer="21"/>
+<wire x1="-12.446" y1="6.731" x2="-12.446" y2="-6.985" width="0.1524" layer="21"/>
+<wire x1="-13.335" y1="-6.985" x2="-12.446" y2="-6.985" width="0.1524" layer="21"/>
+<wire x1="-13.335" y1="-6.985" x2="-13.335" y2="-7.239" width="0.1524" layer="21"/>
+<wire x1="-12.446" y1="-6.985" x2="-12.446" y2="-7.239" width="0.1524" layer="21"/>
+<wire x1="-12.065" y1="-7.493" x2="9.779" y2="-7.493" width="0.3048" layer="21"/>
+<wire x1="-14.859" y1="-7.493" x2="-13.716" y2="-7.493" width="0.3048" layer="21"/>
+<wire x1="-13.208" y1="-7.112" x2="-12.573" y2="-7.112" width="0.3048" layer="21"/>
+<wire x1="10.16" y1="-7.239" x2="10.033" y2="-7.366" width="0.1524" layer="21"/>
+<wire x1="9.779" y1="-7.62" x2="-12.065" y2="-7.62" width="0.1524" layer="21"/>
+<wire x1="10.033" y1="-7.366" x2="9.779" y2="-7.62" width="0.1524" layer="21"/>
+<wire x1="10.16" y1="7.239" x2="9.779" y2="7.62" width="0.1524" layer="21"/>
+<wire x1="9.779" y1="7.62" x2="-12.065" y2="7.62" width="0.1524" layer="21"/>
+<wire x1="-11.049" y1="0.762" x2="-11.049" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="-11.049" y1="0.254" x2="-8.001" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="-8.001" y1="0.254" x2="-8.001" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="1.524" x2="-10.922" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-10.541" y1="1.905" x2="-10.541" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-8.001" y1="0.762" x2="-9.525" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-9.525" y1="0.762" x2="-11.049" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-9.525" y1="-0.635" x2="-9.525" y2="-2.032" width="0.1524" layer="21"/>
+<wire x1="-9.525" y1="1.905" x2="-9.525" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-16.51" y1="-2.54" x2="-16.002" y2="-2.54" width="0.762" layer="51"/>
+<wire x1="-16.51" y1="2.54" x2="-16.002" y2="2.54" width="0.762" layer="51"/>
+<pad name="+" x="-17.78" y="2.54" drill="1"/>
+<pad name="-" x="-17.78" y="-2.54" drill="1" shape="octagon"/>
+<text x="-4.699" y="1.651" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
+<text x="-4.8006" y="-3.1242" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-9.779" y1="-2.032" x2="-9.271" y2="1.016" layer="21" rot="R270"/>
+<rectangle x1="-16.129" y1="2.159" x2="-15.24" y2="2.921" layer="21"/>
+<rectangle x1="-16.129" y1="-2.921" x2="-15.24" y2="-2.159" layer="21"/>
+</package>
+<package name="CAP-POL-5-13">
+<wire x1="-1.651" y1="1.27" x2="-1.397" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="1.016" x2="-1.397" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="1.27" x2="-1.143" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="1.27" x2="-1.397" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="0" x2="-0.762" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="-1.27" x2="-0.254" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="-1.27" x2="-0.254" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="1.27" x2="-0.762" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="1.27" x2="-0.762" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="0" x2="1.651" y2="0" width="0.1524" layer="21"/>
+<pad name="-" x="2.54" y="0" drill="0.9" shape="octagon"/>
+<pad name="+" x="-2.54" y="0" drill="0.9"/>
+<text x="5.953" y="3.54" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
+<text x="5.953" y="-4.175" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="21"/>
+<circle x="0" y="0" radius="6.6" width="0.127" layer="21"/>
+</package>
+<package name="DO-41">
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-1.27" x2="-2.54" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.127" layer="21"/>
+<pad name="1" x="-4.445" y="0" drill="1.0414" diameter="1.905"/>
+<pad name="2" x="4.445" y="0" drill="1.0414" diameter="1.905"/>
+<text x="0" y="1.651" size="0.8128" layer="25" ratio="11" align="bottom-center">&gt;NAME</text>
+<rectangle x1="1.27" y1="-1.27" x2="1.905" y2="1.27" layer="21"/>
+<rectangle x1="-3.3" y1="-0.3175" x2="-2.54" y2="0.3175" layer="21"/>
+<rectangle x1="2.54" y1="-0.3175" x2="3.3" y2="0.3175" layer="21"/>
+</package>
+<package name="DIODE-DO-35">
+<wire x1="-1.27" y1="0" x2="1.27" y2="1.27" width="0.254" layer="21"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="21"/>
+<wire x1="1.27" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="21"/>
+<wire x1="1.27" y1="0" x2="2.667" y2="0" width="0.254" layer="21"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="-2.667" y1="0" x2="-1.27" y2="0" width="0.254" layer="21"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="21"/>
+<pad name="C" x="-3.81" y="0" drill="0.8"/>
+<pad name="A" x="3.81" y="0" drill="0.8"/>
+<text x="-2.4892" y="1.7018" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-2.413" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -1033,8 +1097,8 @@ grid 5 mm, diameter 14 mm</description>
 <wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.1524" layer="94"/>
 <wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.1524" layer="94"/>
 <wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<text x="0" y="1.4986" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.302" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
@@ -1156,8 +1220,8 @@ grid 5 mm, diameter 14 mm</description>
 <wire x1="-2.54" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="1.27" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="1.27" x2="0" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95" ratio="10">&gt;NAME</text>
-<text x="-7.62" y="-3.81" size="1.778" layer="96" ratio="10">&gt;VALUE</text>
+<text x="-1.27" y="2.032" size="1.778" layer="95" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="-1.27" y="-3.81" size="1.778" layer="96" ratio="10" align="bottom-center">&gt;VALUE</text>
 <pin name="+" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
 <pin name="-" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <wire x1="0" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
@@ -1206,13 +1270,13 @@ grid 5 mm, diameter 14 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAPACITOR-*" prefix="C" uservalue="yes">
+<deviceset name="CAPACITOR" prefix="C" uservalue="yes">
 <description>Ceramic Capacitor</description>
 <gates>
 <gate name="G$1" symbol="CAPACITOR" x="-30.48" y="5.08"/>
 </gates>
 <devices>
-<device name="5MM" package="CAPACITOR-5MM">
+<device name="-5MM" package="CAPACITOR-5MM">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1221,7 +1285,7 @@ grid 5 mm, diameter 14 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="2.5MM" package="CAPACITOR-2.5MM">
+<device name="-2.5MM" package="CAPACITOR-2.5MM">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1230,7 +1294,7 @@ grid 5 mm, diameter 14 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0805" package="CAPACITOR-0805">
+<device name="-0805" package="CAPACITOR-0805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1239,7 +1303,25 @@ grid 5 mm, diameter 14 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="1206" package="CAPACITOR-1206">
+<device name="-1206" package="CAPACITOR-1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1210" package="CAPACITOR-1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0603" package="CAPACITOR-0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1274,9 +1356,7 @@ grid 5 mm, diameter 14 mm</description>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="VALUE" value="" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="OFFBOARD" package="SCREW-TERM-2">
@@ -1528,13 +1608,13 @@ Standard 6 pin header for ICSP programming</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP-POL-*" prefix="C" uservalue="yes">
+<deviceset name="CAPACITOR-POLARIZED" prefix="C" uservalue="yes">
 <description>Polarized Capacitor</description>
 <gates>
 <gate name="G$1" symbol="CAP-POL" x="0" y="0"/>
 </gates>
 <devices>
-<device name="2.5-5" package="CAP-POL-2.5-5">
+<device name="-2.5-5" package="CAP-POL-2.5-5">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
@@ -1543,7 +1623,7 @@ Standard 6 pin header for ICSP programming</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="25-14" package="CAP-POL-25-14">
+<device name="-5-14-HORZ" package="CAP-POL-5-14-HORZ">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
@@ -1552,7 +1632,7 @@ Standard 6 pin header for ICSP programming</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="5-10" package="CAP-POL-5-10">
+<device name="-5-10" package="CAP-POL-5-10">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
@@ -1561,7 +1641,7 @@ Standard 6 pin header for ICSP programming</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="5-8" package="CAP-POL-5-8">
+<device name="-5-8" package="CAP-POL-5-8">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
@@ -1570,7 +1650,7 @@ Standard 6 pin header for ICSP programming</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="2.5-6" package="CAP-POL-2.5-6">
+<device name="-2.5-6" package="CAP-POL-2.5-6">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
@@ -1579,7 +1659,16 @@ Standard 6 pin header for ICSP programming</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="" package="CAP-POL-3.5-8">
+<device name="-3.5-8" package="CAP-POL-3.5-8">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-5-13" package="CAP-POL-5-13">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
@@ -1615,12 +1704,12 @@ Standard 6 pin header for ICSP programming</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DIODE-*" prefix="D">
+<deviceset name="DIODE" prefix="D" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="DIODE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="1N4001" package="DO-41">
+<device name="-1N4001" package="DO-41">
 <connects>
 <connect gate="G$1" pin="+" pad="1"/>
 <connect gate="G$1" pin="-" pad="2"/>
@@ -1629,10 +1718,19 @@ Standard 6 pin header for ICSP programming</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="DO214AC" package="DO-214AC">
+<device name="-DO214AC" package="DO-214AC">
 <connects>
 <connect gate="G$1" pin="+" pad="1"/>
 <connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1N4148" package="DIODE-DO-35">
+<connects>
+<connect gate="G$1" pin="+" pad="A"/>
+<connect gate="G$1" pin="-" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1653,28 +1751,28 @@ Standard 6 pin header for ICSP programming</description>
 </classes>
 <parts>
 <part name="IC4" library="SaintGimp" deviceset="TDA7439DS" device=""/>
-<part name="C10" library="SaintGimp" deviceset="CAPACITOR-*" device="5MM" value="5.6nF"/>
+<part name="C10" library="SaintGimp" deviceset="CAPACITOR" device="-5MM" value="5.6nF"/>
 <part name="GND3" library="SaintGimp" deviceset="GND" device=""/>
 <part name="GND9" library="SaintGimp" deviceset="GND" device=""/>
-<part name="C18" library="SaintGimp" deviceset="CAPACITOR-*" device="5MM" value="18nF"/>
-<part name="C17" library="SaintGimp" deviceset="CAPACITOR-*" device="5MM" value="22nF"/>
+<part name="C18" library="SaintGimp" deviceset="CAPACITOR" device="-5MM" value="18nF"/>
+<part name="C17" library="SaintGimp" deviceset="CAPACITOR" device="-5MM" value="22nF"/>
 <part name="R10" library="SaintGimp" deviceset="RESISTOR-*" device="0805" value="2.7K"/>
-<part name="C15" library="SaintGimp" deviceset="CAPACITOR-*" device="5MM" value="100nF"/>
-<part name="C16" library="SaintGimp" deviceset="CAPACITOR-*" device="5MM" value="100nF"/>
+<part name="C15" library="SaintGimp" deviceset="CAPACITOR" device="-5MM" value="100nF"/>
+<part name="C16" library="SaintGimp" deviceset="CAPACITOR" device="-5MM" value="100nF"/>
 <part name="R12" library="SaintGimp" deviceset="RESISTOR-*" device="0805" value="5.6K"/>
 <part name="GND5" library="SaintGimp" deviceset="GND" device=""/>
 <part name="GND7" library="SaintGimp" deviceset="GND" device=""/>
-<part name="C8" library="SaintGimp" deviceset="CAPACITOR-*" device="5MM" value="5.6nF"/>
+<part name="C8" library="SaintGimp" deviceset="CAPACITOR" device="-5MM" value="5.6nF"/>
 <part name="GND4" library="SaintGimp" deviceset="GND" device=""/>
-<part name="C11" library="SaintGimp" deviceset="CAPACITOR-*" device="5MM" value="18nF"/>
-<part name="C12" library="SaintGimp" deviceset="CAPACITOR-*" device="5MM" value="22nF"/>
+<part name="C11" library="SaintGimp" deviceset="CAPACITOR" device="-5MM" value="18nF"/>
+<part name="C12" library="SaintGimp" deviceset="CAPACITOR" device="-5MM" value="22nF"/>
 <part name="R11" library="SaintGimp" deviceset="RESISTOR-*" device="0805" value="2.7K"/>
-<part name="C13" library="SaintGimp" deviceset="CAPACITOR-*" device="5MM" value="100nF"/>
-<part name="C14" library="SaintGimp" deviceset="CAPACITOR-*" device="5MM" value="100nF"/>
+<part name="C13" library="SaintGimp" deviceset="CAPACITOR" device="-5MM" value="100nF"/>
+<part name="C14" library="SaintGimp" deviceset="CAPACITOR" device="-5MM" value="100nF"/>
 <part name="R9" library="SaintGimp" deviceset="RESISTOR-*" device="0805" value="5.6K"/>
 <part name="GND8" library="SaintGimp" deviceset="GND" device=""/>
 <part name="GND6" library="SaintGimp" deviceset="GND" device=""/>
-<part name="C6" library="SaintGimp" deviceset="CAPACITOR-*" device="1206" value="10uF"/>
+<part name="C6" library="SaintGimp" deviceset="CAPACITOR" device="-1206" value="10uF"/>
 <part name="GND11" library="SaintGimp" deviceset="GND" device=""/>
 <part name="IC1" library="SaintGimp" deviceset="ATTINY24/44/84" device="-SSU" value="ATTINY24/44/84-SSU"/>
 <part name="IC3" library="SaintGimp" deviceset="LP2951" device=""/>
@@ -1686,13 +1784,13 @@ Standard 6 pin header for ICSP programming</description>
 <part name="GND19" library="SaintGimp" deviceset="GND" device=""/>
 <part name="GND26" library="SaintGimp" deviceset="GND" device=""/>
 <part name="P+9" library="SaintGimp" deviceset="VCC" device=""/>
-<part name="C3" library="SaintGimp" deviceset="CAPACITOR-*" device="1206" value="10uF"/>
+<part name="C3" library="SaintGimp" deviceset="CAPACITOR" device="-1206" value="10uF"/>
 <part name="GND23" library="SaintGimp" deviceset="GND" device=""/>
-<part name="C2" library="SaintGimp" deviceset="CAPACITOR-*" device="1206" value="10uF"/>
+<part name="C2" library="SaintGimp" deviceset="CAPACITOR" device="-1206" value="10uF"/>
 <part name="GND21" library="SaintGimp" deviceset="GND" device=""/>
-<part name="C5" library="SaintGimp" deviceset="CAPACITOR-*" device="0805" value="0.1uF"/>
+<part name="C5" library="SaintGimp" deviceset="CAPACITOR" device="-0603" value="0.1uF"/>
 <part name="GND10" library="SaintGimp" deviceset="GND" device=""/>
-<part name="C1" library="SaintGimp" deviceset="CAPACITOR-*" device="0805" value="0.1uF"/>
+<part name="C1" library="SaintGimp" deviceset="CAPACITOR" device="-0603" value="0.1uF"/>
 <part name="GND25" library="SaintGimp" deviceset="GND" device=""/>
 <part name="ISP1" library="SaintGimp" deviceset="ICSP-HEADER" device="-6"/>
 <part name="P+15" library="SaintGimp" deviceset="+3V3" device=""/>
@@ -1702,8 +1800,8 @@ Standard 6 pin header for ICSP programming</description>
 <part name="P+1" library="SaintGimp" deviceset="+9V" device=""/>
 <part name="P+10" library="SaintGimp" deviceset="+9V" device=""/>
 <part name="P+12" library="SaintGimp" deviceset="+9V" device=""/>
-<part name="C7" library="SaintGimp" deviceset="CAPACITOR-*" device="5MM" value="0.47uF"/>
-<part name="C4" library="SaintGimp" deviceset="CAPACITOR-*" device="5MM" value="0.47uF"/>
+<part name="C7" library="SaintGimp" deviceset="CAPACITOR" device="-5MM" value="0.47uF"/>
+<part name="C4" library="SaintGimp" deviceset="CAPACITOR" device="-5MM" value="0.47uF"/>
 <part name="R4" library="SaintGimp" deviceset="RESISTOR-*" device="0805" value="10K"/>
 <part name="R5" library="SaintGimp" deviceset="RESISTOR-*" device="0805" value="10K"/>
 <part name="R1" library="SaintGimp" deviceset="RESISTOR-*" device="0805" value="470"/>
@@ -1730,11 +1828,11 @@ Standard 6 pin header for ICSP programming</description>
 <part name="GND17" library="SaintGimp" deviceset="GND" device=""/>
 <part name="GND18" library="SaintGimp" deviceset="GND" device=""/>
 <part name="J5" library="SaintGimp" deviceset="PINHD-1X3" device="-JST-PH"/>
-<part name="C9" library="SaintGimp" deviceset="CAP-POL-*" device="" value="470uF"/>
+<part name="C9" library="SaintGimp" deviceset="CAPACITOR-POLARIZED" device="-3.5-8" value="470uF"/>
 <part name="R6" library="SaintGimp" deviceset="RESISTOR-*" device="0805" value="470"/>
 <part name="D1" library="SaintGimp" deviceset="LED-*" device="0805"/>
 <part name="GND12" library="SaintGimp" deviceset="GND" device=""/>
-<part name="D2" library="SaintGimp" deviceset="DIODE-*" device="DO214AC"/>
+<part name="D2" library="SaintGimp" deviceset="DIODE" device="-DO214AC"/>
 </parts>
 <sheets>
 <sheet>
