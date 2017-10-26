@@ -3,9 +3,6 @@
 <eagle version="8.3.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
-<setting keepoldvectorfont="yes"/>
-<setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
@@ -37,7 +34,7 @@
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
@@ -75,7 +72,7 @@
 <layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
 <layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="113" name="IDFDebug" color="7" fill="1" visible="no" active="yes"/>
 <layer number="114" name="FRNTMAAT1" color="7" fill="1" visible="no" active="yes"/>
 <layer number="115" name="FRNTMAAT2" color="7" fill="1" visible="no" active="yes"/>
@@ -84,8 +81,8 @@
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="no" active="yes"/>
 <layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="no" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -156,35 +153,35 @@
 <wire x1="49.53" y1="42.672" x2="46.482" y2="45.72" width="0" layer="20" curve="90"/>
 <wire x1="46.482" y1="45.72" x2="3.048" y2="45.72" width="0" layer="20"/>
 <wire x1="3.048" y1="45.72" x2="0" y2="42.672" width="0" layer="20" curve="90"/>
-<text x="1.27" y="20.32" size="0.8128" layer="121" rot="SR270" align="top-center">AUDIO</text>
-<text x="20.32" y="44.45" size="0.8128" layer="121" rot="SR180" align="top-center">TREBLE</text>
-<text x="29.21" y="44.45" size="0.8128" layer="121" rot="SR180" align="top-center">MID</text>
-<text x="38.1" y="44.45" size="0.8128" layer="121" rot="SR180" align="top-center">BASS</text>
-<text x="11.43" y="44.45" size="0.8128" layer="121" rot="SR180" align="top-center">VOLUME</text>
-<text x="48.26" y="27.305" size="0.8128" layer="121" rot="SR90" align="top-center">POWER</text>
-<text x="8.001" y="9.525" size="1.0668" layer="121" rot="R180" align="top-center">Saint Gimp
+<text x="1.27" y="20.32" size="0.8128" layer="21" rot="SR270" align="top-center">AUDIO</text>
+<text x="20.32" y="44.45" size="0.8128" layer="21" rot="SR180" align="top-center">TREBLE</text>
+<text x="29.21" y="44.45" size="0.8128" layer="21" rot="SR180" align="top-center">MID</text>
+<text x="38.1" y="44.45" size="0.8128" layer="21" rot="SR180" align="top-center">BASS</text>
+<text x="11.43" y="44.45" size="0.8128" layer="21" rot="SR180" align="top-center">VOLUME</text>
+<text x="48.26" y="27.305" size="0.8128" layer="21" rot="SR90" align="top-center">POWER</text>
+<text x="8.001" y="9.525" size="1.0668" layer="21" rot="R180" align="top-center">Saint Gimp
 Audio Processor</text>
-<text x="14.351" y="44.45" size="0.8128" layer="122" rot="SMR180" align="top-center">3.3V</text>
-<text x="8.89" y="44.45" size="0.8128" layer="122" rot="SMR180" align="top-center">LVL</text>
-<text x="11.43" y="44.45" size="0.8128" layer="122" rot="SMR180" align="top-center">GND</text>
-<text x="23.241" y="44.45" size="0.8128" layer="122" rot="SMR180" align="top-center">3.3V</text>
-<text x="17.78" y="44.45" size="0.8128" layer="122" rot="SMR180" align="top-center">LVL</text>
-<text x="20.32" y="44.45" size="0.8128" layer="122" rot="SMR180" align="top-center">GND</text>
-<text x="32.131" y="44.45" size="0.8128" layer="122" rot="SMR180" align="top-center">3.3V</text>
-<text x="26.67" y="44.45" size="0.8128" layer="122" rot="SMR180" align="top-center">LVL</text>
-<text x="29.21" y="44.45" size="0.8128" layer="122" rot="SMR180" align="top-center">GND</text>
-<text x="41.021" y="44.45" size="0.8128" layer="122" rot="SMR180" align="top-center">3.3V</text>
-<text x="35.56" y="44.45" size="0.8128" layer="122" rot="SMR180" align="top-center">LVL</text>
-<text x="38.1" y="44.45" size="0.8128" layer="122" rot="SMR180" align="top-center">GND</text>
-<text x="48.26" y="21.844" size="0.8128" layer="122" rot="SMR270" align="top-center">VIN 10-16V</text>
-<text x="48.26" y="27.305" size="0.8128" layer="122" rot="SMR270" align="top-center">GND</text>
-<text x="48.26" y="31.496" size="0.8128" layer="122" rot="SMR270" align="top-center">SHUTDN</text>
-<text x="1.27" y="27.051" size="0.8128" layer="122" rot="SMR90" align="top-center">RIN</text>
-<text x="1.27" y="23.876" size="0.8128" layer="122" rot="SMR90" align="top-center">ROUT</text>
-<text x="1.27" y="20.32" size="0.8128" layer="122" rot="SMR90" align="top-center">GND</text>
-<text x="1.27" y="16.891" size="0.8128" layer="122" rot="SMR90" align="top-center">LOUT</text>
-<text x="1.27" y="13.716" size="0.8128" layer="122" rot="SMR90" align="top-center">LIN</text>
-<text x="3.556" y="6.985" size="1.0668" layer="121" rot="R180" align="top-center">v1.1.2</text>
+<text x="14.351" y="44.45" size="0.8128" layer="22" rot="SMR180" align="top-center">3.3V</text>
+<text x="8.89" y="44.45" size="0.8128" layer="22" rot="SMR180" align="top-center">LVL</text>
+<text x="11.43" y="44.45" size="0.8128" layer="22" rot="SMR180" align="top-center">GND</text>
+<text x="23.241" y="44.45" size="0.8128" layer="22" rot="SMR180" align="top-center">3.3V</text>
+<text x="17.78" y="44.45" size="0.8128" layer="22" rot="SMR180" align="top-center">LVL</text>
+<text x="20.32" y="44.45" size="0.8128" layer="22" rot="SMR180" align="top-center">GND</text>
+<text x="32.131" y="44.45" size="0.8128" layer="22" rot="SMR180" align="top-center">3.3V</text>
+<text x="26.67" y="44.45" size="0.8128" layer="22" rot="SMR180" align="top-center">LVL</text>
+<text x="29.21" y="44.45" size="0.8128" layer="22" rot="SMR180" align="top-center">GND</text>
+<text x="41.021" y="44.45" size="0.8128" layer="22" rot="SMR180" align="top-center">3.3V</text>
+<text x="35.56" y="44.45" size="0.8128" layer="22" rot="SMR180" align="top-center">LVL</text>
+<text x="38.1" y="44.45" size="0.8128" layer="22" rot="SMR180" align="top-center">GND</text>
+<text x="48.26" y="21.844" size="0.8128" layer="22" rot="SMR270" align="top-center">VIN 10-16V</text>
+<text x="48.26" y="27.305" size="0.8128" layer="22" rot="SMR270" align="top-center">GND</text>
+<text x="48.26" y="31.496" size="0.8128" layer="22" rot="SMR270" align="top-center">SHUTDN</text>
+<text x="1.27" y="27.051" size="0.8128" layer="22" rot="SMR90" align="top-center">RIN</text>
+<text x="1.27" y="23.876" size="0.8128" layer="22" rot="SMR90" align="top-center">ROUT</text>
+<text x="1.27" y="20.32" size="0.8128" layer="22" rot="SMR90" align="top-center">GND</text>
+<text x="1.27" y="16.891" size="0.8128" layer="22" rot="SMR90" align="top-center">LOUT</text>
+<text x="1.27" y="13.716" size="0.8128" layer="22" rot="SMR90" align="top-center">LIN</text>
+<text x="3.556" y="6.985" size="1.0668" layer="21" rot="R180" align="top-center">v1.1.2</text>
 </plain>
 <libraries>
 <library name="SaintGimp">
