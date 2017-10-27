@@ -519,20 +519,20 @@
 <rectangle x1="3.556" y1="-3.0988" x2="4.064" y2="-1.9558" layer="51"/>
 </package>
 <package name="JST-B3B-PH">
-<text x="-6.8610625" y="2.63785" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-6.62" y="-3.3748375" size="0.8128" layer="27">&gt;VALUE</text>
-<pad name="3" x="2" y="0" drill="0.8" shape="long" rot="R90"/>
+<text x="0" y="2.63785" size="0.8128" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.3748375" size="0.8128" layer="27" align="bottom-center">&gt;VALUE</text>
+<pad name="1" x="2" y="0" drill="0.8" shape="long" rot="R90"/>
 <rectangle x1="1.746" y1="-0.254" x2="2.254" y2="0.254" layer="51"/>
 <pad name="2" x="0" y="0" drill="0.8" shape="long" rot="R90"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<pad name="1" x="-2" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="3" x="-2" y="0" drill="0.8" shape="long" rot="R90"/>
 <rectangle x1="-2.254" y1="-0.254" x2="-1.746" y2="0.254" layer="51"/>
-<wire x1="-4" y1="2.25" x2="4" y2="2.25" width="0.127" layer="21"/>
-<wire x1="-4" y1="2.25" x2="-4" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="4" y1="2.25" x2="4" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="-4" y1="-2.25" x2="-2" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-3.95" y1="2.25" x2="3.95" y2="2.25" width="0.127" layer="21"/>
+<wire x1="-3.95" y1="2.25" x2="-3.95" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="3.95" y1="2.25" x2="3.95" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-3.95" y1="-2.25" x2="-2" y2="-2.25" width="0.127" layer="21"/>
 <wire x1="-2" y1="-2.25" x2="2" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="2" y1="-2.25" x2="4" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="2" y1="-2.25" x2="3.95" y2="-2.25" width="0.127" layer="21"/>
 <wire x1="-2" y1="-1.75" x2="-2" y2="-2.25" width="0.127" layer="21"/>
 <wire x1="-2" y1="-1.75" x2="2" y2="-1.75" width="0.127" layer="21"/>
 <wire x1="2" y1="-2.25" x2="2" y2="-1.75" width="0.127" layer="21"/>
@@ -581,19 +581,19 @@
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 </package>
 <package name="JST-B6B-PH">
-<pad name="4" x="1" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="3" x="1" y="0" drill="0.8" shape="long" rot="R90"/>
 <text x="-6.8610625" y="2.63785" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
 <text x="-6.62" y="-3.3748375" size="0.8128" layer="27">&gt;VALUE</text>
 <rectangle x1="0.746" y1="-0.254" x2="1.254" y2="0.254" layer="51"/>
-<pad name="3" x="-1" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="4" x="-1" y="0" drill="0.8" shape="long" rot="R90"/>
 <rectangle x1="-1.254" y1="-0.254" x2="-0.746" y2="0.254" layer="51"/>
-<pad name="2" x="-3" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="5" x="-3" y="0" drill="0.8" shape="long" rot="R90"/>
 <rectangle x1="-3.254" y1="-0.254" x2="-2.746" y2="0.254" layer="51"/>
-<pad name="5" x="3" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="2" x="3" y="0" drill="0.8" shape="long" rot="R90"/>
 <rectangle x1="2.746" y1="-0.254" x2="3.254" y2="0.254" layer="51"/>
-<pad name="6" x="5" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="1" x="5" y="0" drill="0.8" shape="long" rot="R90"/>
 <rectangle x1="4.746" y1="-0.254" x2="5.254" y2="0.254" layer="51"/>
-<pad name="1" x="-5" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="6" x="-5" y="0" drill="0.8" shape="long" rot="R90"/>
 <rectangle x1="-5.254" y1="-0.254" x2="-4.746" y2="0.254" layer="51"/>
 <wire x1="-7" y1="2.25" x2="7" y2="2.25" width="0.127" layer="21"/>
 <wire x1="-7" y1="2.25" x2="-7" y2="-2.25" width="0.127" layer="21"/>
@@ -1868,12 +1868,12 @@ Standard 6 pin header for ICSP programming</description>
 <instance part="P+1" gate="G$1" x="109.22" y="78.74"/>
 <instance part="C7" gate="G$1" x="33.02" y="55.88" rot="R90"/>
 <instance part="C4" gate="G$1" x="33.02" y="35.56" rot="R90"/>
-<instance part="J6" gate="6" x="20.32" y="55.88"/>
-<instance part="J6" gate="5" x="119.38" y="40.64" rot="R180"/>
+<instance part="J6" gate="1" x="20.32" y="55.88"/>
+<instance part="J6" gate="2" x="119.38" y="40.64" rot="R180"/>
 <instance part="J6" gate="3" x="22.86" y="10.16"/>
 <instance part="J6" gate="4" x="22.86" y="5.08"/>
-<instance part="J6" gate="2" x="119.38" y="35.56" rot="R180"/>
-<instance part="J6" gate="1" x="20.32" y="35.56"/>
+<instance part="J6" gate="5" x="119.38" y="35.56" rot="R180"/>
+<instance part="J6" gate="6" x="20.32" y="35.56"/>
 <instance part="GND2" gate="1" x="30.48" y="5.08" rot="R90"/>
 <instance part="GND1" gate="1" x="30.48" y="10.16" rot="R90"/>
 </instances>
@@ -2086,14 +2086,14 @@ Standard 6 pin header for ICSP programming</description>
 <segment>
 <pinref part="IC4" gate="G$1" pin="L-OUT"/>
 <wire x1="114.3" y1="40.64" x2="109.22" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="J6" gate="5" pin="KL"/>
+<pinref part="J6" gate="2" pin="KL"/>
 </segment>
 </net>
 <net name="R-OUT" class="0">
 <segment>
 <pinref part="IC4" gate="G$1" pin="R-OUT"/>
 <wire x1="109.22" y1="35.56" x2="114.3" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="J6" gate="2" pin="KL"/>
+<pinref part="J6" gate="5" pin="KL"/>
 </segment>
 </net>
 <net name="L-IN" class="0">
@@ -2113,14 +2113,14 @@ Standard 6 pin header for ICSP programming</description>
 <net name="L-IN-RAW" class="0">
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
-<pinref part="J6" gate="6" pin="KL"/>
+<pinref part="J6" gate="1" pin="KL"/>
 <wire x1="25.4" y1="55.88" x2="27.94" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="R-IN-RAW" class="0">
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
-<pinref part="J6" gate="1" pin="KL"/>
+<pinref part="J6" gate="6" pin="KL"/>
 <wire x1="25.4" y1="35.56" x2="27.94" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -2161,17 +2161,17 @@ Standard 6 pin header for ICSP programming</description>
 <instance part="P+17" gate="G$1" x="43.18" y="68.58" rot="R180"/>
 <instance part="R3" gate="G$1" x="15.24" y="121.92"/>
 <instance part="P+14" gate="G$1" x="7.62" y="121.92" rot="R90"/>
-<instance part="J1" gate="1" x="-101.6" y="132.08"/>
-<instance part="J1" gate="3" x="-101.6" y="127"/>
+<instance part="J1" gate="3" x="-101.6" y="132.08"/>
+<instance part="J1" gate="1" x="-101.6" y="127"/>
 <instance part="J1" gate="2" x="-101.6" y="121.92"/>
-<instance part="J2" gate="1" x="-101.6" y="114.3"/>
-<instance part="J2" gate="3" x="-101.6" y="109.22"/>
+<instance part="J2" gate="3" x="-101.6" y="114.3"/>
+<instance part="J2" gate="1" x="-101.6" y="109.22"/>
 <instance part="J2" gate="2" x="-101.6" y="104.14"/>
-<instance part="J3" gate="1" x="-101.6" y="96.52"/>
-<instance part="J3" gate="3" x="-101.6" y="91.44"/>
+<instance part="J3" gate="3" x="-101.6" y="96.52"/>
+<instance part="J3" gate="1" x="-101.6" y="91.44"/>
 <instance part="J3" gate="2" x="-101.6" y="86.36"/>
-<instance part="J4" gate="1" x="-101.6" y="78.74"/>
-<instance part="J4" gate="3" x="-101.6" y="73.66"/>
+<instance part="J4" gate="3" x="-101.6" y="78.74"/>
+<instance part="J4" gate="1" x="-101.6" y="73.66"/>
 <instance part="J4" gate="2" x="-101.6" y="68.58"/>
 <instance part="P+5" gate="G$1" x="-93.98" y="132.08" rot="R270"/>
 <instance part="P+6" gate="G$1" x="-93.98" y="114.3" rot="R270"/>
@@ -2183,9 +2183,8 @@ Standard 6 pin header for ICSP programming</description>
 <instance part="GND18" gate="1" x="-93.98" y="68.58" rot="R90"/>
 <instance part="P+4" gate="VCC" x="-93.98" y="149.86" rot="R270"/>
 <instance part="GND14" gate="1" x="-93.98" y="144.78" rot="R90"/>
-<instance part="J5" gate="1" x="-101.6" y="149.86"/>
+<instance part="J5" gate="3" x="-101.6" y="149.86"/>
 <instance part="J5" gate="2" x="-101.6" y="144.78"/>
-<instance part="J5" gate="3" x="-101.6" y="139.7"/>
 <instance part="C9" gate="G$1" x="-68.58" y="142.24"/>
 <instance part="R6" gate="G$1" x="15.24" y="129.54"/>
 <instance part="D1" gate="1" x="5.08" y="129.54" rot="R270"/>
@@ -2220,6 +2219,9 @@ Standard 6 pin header for ICSP programming</description>
 <wire x1="-68.58" y1="129.54" x2="-63.5" y2="129.54" width="0.1524" layer="91"/>
 <junction x="-63.5" y="129.54"/>
 <pinref part="C9" gate="G$1" pin="-"/>
+<pinref part="IC3" gate="G$1" pin="SHDWN"/>
+<wire x1="-60.96" y1="134.62" x2="-63.5" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="134.62" x2="-63.5" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
@@ -2309,19 +2311,19 @@ Standard 6 pin header for ICSP programming</description>
 <pinref part="P+14" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="J1" gate="1" pin="KL"/>
+<pinref part="J1" gate="3" pin="KL"/>
 <pinref part="P+5" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="J2" gate="1" pin="KL"/>
+<pinref part="J2" gate="3" pin="KL"/>
 <pinref part="P+6" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="J3" gate="1" pin="KL"/>
+<pinref part="J3" gate="3" pin="KL"/>
 <pinref part="P+7" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="J4" gate="1" pin="KL"/>
+<pinref part="J4" gate="3" pin="KL"/>
 <pinref part="P+8" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
@@ -2417,7 +2419,7 @@ Standard 6 pin header for ICSP programming</description>
 <net name="VCC" class="0">
 <segment>
 <pinref part="P+4" gate="VCC" pin="VCC"/>
-<pinref part="J5" gate="1" pin="KL"/>
+<pinref part="J5" gate="3" pin="KL"/>
 </segment>
 <segment>
 <pinref part="D2" gate="G$1" pin="+"/>
@@ -2461,7 +2463,7 @@ Standard 6 pin header for ICSP programming</description>
 <label x="63.5" y="137.16" size="1.524" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="3" pin="KL"/>
+<pinref part="J1" gate="1" pin="KL"/>
 <wire x1="-96.52" y1="127" x2="-88.9" y2="127" width="0.1524" layer="91"/>
 <label x="-88.9" y="127" size="1.524" layer="95" xref="yes"/>
 </segment>
@@ -2473,7 +2475,7 @@ Standard 6 pin header for ICSP programming</description>
 <label x="63.5" y="134.62" size="1.524" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="3" pin="KL"/>
+<pinref part="J2" gate="1" pin="KL"/>
 <wire x1="-96.52" y1="109.22" x2="-88.9" y2="109.22" width="0.1524" layer="91"/>
 <label x="-88.9" y="109.22" size="1.524" layer="95" xref="yes"/>
 </segment>
@@ -2485,7 +2487,7 @@ Standard 6 pin header for ICSP programming</description>
 <label x="63.5" y="132.08" size="1.524" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="3" pin="KL"/>
+<pinref part="J3" gate="1" pin="KL"/>
 <wire x1="-96.52" y1="91.44" x2="-88.9" y2="91.44" width="0.1524" layer="91"/>
 <label x="-88.9" y="91.44" size="1.524" layer="95" xref="yes"/>
 </segment>
@@ -2497,19 +2499,9 @@ Standard 6 pin header for ICSP programming</description>
 <label x="63.5" y="129.54" size="1.524" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="3" pin="KL"/>
+<pinref part="J4" gate="1" pin="KL"/>
 <wire x1="-96.52" y1="73.66" x2="-88.9" y2="73.66" width="0.1524" layer="91"/>
 <label x="-88.9" y="73.66" size="1.524" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="SHUTDOWN" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="SHDWN"/>
-<wire x1="-60.96" y1="134.62" x2="-83.82" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="134.62" x2="-83.82" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="J5" gate="3" pin="KL"/>
-<wire x1="-83.82" y1="139.7" x2="-96.52" y2="139.7" width="0.1524" layer="91"/>
-<label x="-96.52" y="139.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
