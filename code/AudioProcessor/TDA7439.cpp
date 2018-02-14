@@ -67,6 +67,26 @@ void TDA7439::mute(){
 void TDA7439::spkAtt(int att){
   // Mainly used to override the default attenuation of mute at power up
   // can be used for balance with some simple code changes here.
+  switch (att){
+    case 0:att = 0;break;
+    case 1:att = 1;break;
+    case 2:att = 2;break;
+    case 3:att = 3;break;
+    case 4:att = 4;break;
+    case 5:att = 5;break;
+    case 6:att = 6;break;
+    case 7 :att = 7;break;
+    case 8 :att = 8;break;
+    case 9 :att = 16;break;
+    case 10 :att = 24;break;
+    case 11 :att = 32;break;
+    case 12 :att = 40;break;
+    case 13 :att = 48;break;
+    case 14 :att = 56;break;
+    case 15 :att = 64;break;
+    case 16 :att = 72;break;
+  }
+
   writeWire(TDA7439_ratt,att);
   writeWire(TDA7439_latt,att);
 }

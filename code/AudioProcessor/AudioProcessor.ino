@@ -19,14 +19,27 @@ const int bassPin = A3;
 const int ledPin = 8;
 
 // Input controls
-int volumeLevel = 48;
-int trebleLevel = 1;
-int midLevel = 0;
-int bassLevel = 2;
+// If you don't have a potentiometer connected, set the "use" flag
+// to false and set the level value to whatever default you want.
+// If you do have a pot connected to an input, enable the reading of
+// that pot by setting the corresponding "use" flag to true. In that
+// case the default level value doesn't matter because it'll be immediately
+// overridden by the pot reading.  
+
+// Valid value ranges: volume -15 to 48, tones -7 to 7
+
 bool useVolumeControl = true;
+int volumeLevel = 48;
+
 bool useTrebleControl = true;
+int trebleLevel = 1;
+
 bool useMidControl = true;
+int midLevel = 0;
+
 bool useBassControl = true;
+int bassLevel = 2;
+
 ResponsiveAnalogRead volumeReader(volumePin, true);
 ResponsiveAnalogRead trebleReader(treblePin, true);
 ResponsiveAnalogRead midReader(midPin, true);
@@ -85,11 +98,27 @@ void UpdateVolume()
 {
   volumeReader.update();
   int volumePinValue = volumeReader.getValue();
-  int newVolume = potMap(volumePinValue, 0, 1023, 0, 48);
+  int newVolume = potMap(volumePinValue, 0, 1023, -15, 48);
   if (newVolume != volumeLevel)
   {
     volumeLevel = newVolume;
-    audio.setVolume(volumeLevel);
+
+    // The volume control by itself has a rather abrupt step between 1 and 0 (mute) when
+    // the source is loud. We further extend the lower volume range to get a smooth
+    // ramp to inaudibility by using the attenuation feature once we reach minimum
+    // volume (volume values 0 and below invoke increasing attenuation)
+    
+    if (volumeLevel > 0)
+    {
+      audio.setVolume(volumeLevel);
+      audio.spkAtt(0);
+    }
+    else
+    {
+      audio.setVolume(1);
+      audio.spkAtt(abs(volumeLevel) + 1);
+    }
+    
     blinkLed();
   }
 }
@@ -152,7 +181,7 @@ long potMap(long x, long in_min, long in_max, long out_min, long out_max)
   return map(x, in_min, in_max + 1, out_min, out_max + 1);
 }
 
-// ATTiny84 sleep code from https://www.marcelpost.com/wiki/index.php/ATtiny84_WDT_sleep
+// ATTiny84 sleep code, below, from https://www.marcelpost.com/wiki/index.php/ATtiny84_WDT_sleep
 
 // Watchdog Interrupt Service / is executed when watchdog timed out
 ISR(WDT_vect)
