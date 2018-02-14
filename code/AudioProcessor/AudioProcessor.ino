@@ -4,6 +4,10 @@
 #include <ResponsiveAnalogRead.h>
 #include "TDA7439.h"
 
+#define SND_TREBLE 3
+#define SND_MID 2
+#define SND_BASS 1
+
 // *** Targeting information ***
 // Core: https://github.com/SpenceKonde/ATTinyCore
 // Board: ATTiny24/44/84
@@ -26,7 +30,7 @@ const int ledPin = 8;
 // case the default level value doesn't matter because it'll be immediately
 // overridden by the pot reading.  
 
-// Valid value ranges: volume -15 to 48, tones -7 to 7
+// Valid value ranges: volume 0 to 48, tones -7 to 7
 
 bool useVolumeControl = true;
 int volumeLevel = 48;
@@ -62,10 +66,26 @@ void setup()
   audio.inputGain(0);
   audio.setInput(2);
   audio.spkAtt(0); 
-  audio.setVolume(volumeLevel);
-  audio.setSnd(trebleLevel, 3);
-  audio.setSnd(midLevel, 2);
-  audio.setSnd(bassLevel, 1);
+  
+  if (!useVolumeControl)
+  {
+    audio.setVolume(volumeLevel);
+  }
+
+  if (!useTrebleControl)
+  {
+    audio.setSnd(trebleLevel, SND_TREBLE);
+  }
+  
+  if (!useMidControl)
+  {
+    audio.setSnd(midLevel, SND_MID);
+  }
+  
+  if (!useBassControl)
+  {
+    audio.setSnd(bassLevel, SND_BASS);
+  }
 }
 
 void loop()
@@ -131,7 +151,7 @@ void UpdateTreble()
   if (newTreble != trebleLevel)
   {
     trebleLevel = newTreble;
-    audio.setSnd(trebleLevel, 3);
+    audio.setSnd(trebleLevel, SND_TREBLE);
     blinkLed();
   }  
 }
@@ -144,7 +164,7 @@ void UpdateMid()
   if (newMid != midLevel)
   {
     midLevel = newMid;
-    audio.setSnd(midLevel, 2);
+    audio.setSnd(midLevel, SND_MID);
     blinkLed();
   }  
 }
@@ -157,7 +177,7 @@ void UpdateBass()
   if (newBass != bassLevel)
   {
     bassLevel = newBass;
-    audio.setSnd(bassLevel, 1);
+    audio.setSnd(bassLevel, SND_BASS);
     blinkLed();
   }  
 }
