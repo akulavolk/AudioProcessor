@@ -54,6 +54,11 @@ void setup()
   #define BODSE 2 //BOD Sleep enable bit in MCUCR
   MCUCR |= _BV(BODS) | _BV(BODSE); //turn off the brown-out detector
 
+  pinMode(ledPin, OUTPUT);
+  digitalWrite(ledPin, HIGH);
+  delay(1000);
+  digitalWrite(ledPin, LOW);
+
   audio.inputGain(0);
   audio.setInput(2);
   audio.spkAtt(0); 
@@ -61,11 +66,6 @@ void setup()
   audio.setSnd(trebleLevel, 3);
   audio.setSnd(midLevel, 2);
   audio.setSnd(bassLevel, 1);
-
-  pinMode(ledPin, OUTPUT);
-  digitalWrite(ledPin, HIGH);
-  delay(1000);
-  digitalWrite(ledPin, LOW);
 }
 
 void loop()
